@@ -31,6 +31,8 @@ def sorted_matrix
   
   organic_and_conventional = [["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"], ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]]
   organic_and_conventional[0].sort!
+  organic_and_conventional[1].sort!
+  organic_and_conventional
 end
 
 def matrix_lookup(matrix, row, column)
